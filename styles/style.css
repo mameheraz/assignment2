@@ -62,9 +62,12 @@
     margin: 0px auto;
 }
 
-.logo img {
-    width: 219px;
-    height: 32px;
+.logo h2 {
+    font-size: 48px;
+    font-weight: 800;
+    background: linear-gradient(120deg, #F7E93F, #fb09b4, #9100F8);
+    background-clip: text;
+    color: transparent;
 }
 
 .menu ul {
@@ -402,7 +405,7 @@
     color: #fff;
 }
 
-.social{
+.social {
     margin-top: 10px;
 }
 
@@ -420,3 +423,59 @@
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
+
+/* footer section */
+
+.footer-section {
+    padding: 100px;
+    background: url(../assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.footer-content {
+    text-align: center;
+}
+
+.footer-content h2 {
+    font-size: 48px;
+    font-weight: 800;
+    color: #fff;
+}
+
+.footer-content span {
+    background: linear-gradient(to right, #f7e93f, #fb09b4, #9100f8);
+    background-clip: text;
+    color: transparent;
+    font-size: 48px;
+    font-weight: 900;
+}
+
+.footer-content ul {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+
+.footer-content ul li {
+    list-style-type: none;
+}
+
+.footer-content ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+    color: #fff;
+}
+
+.footer-content {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    color: #FAFAFA;
+}
+/* The End */
