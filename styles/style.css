@@ -514,6 +514,7 @@
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 20px;
+        width: 90%;
     }
 
     .feature-card h4 {
@@ -610,6 +611,10 @@
 
     .host-section {
         padding: 40px 0;
+    }
+
+    .host-content {
+        width: 90%;
     }
 
 
