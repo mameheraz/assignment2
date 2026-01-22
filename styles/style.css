@@ -32,7 +32,10 @@
     transform: translateX(5px);
     background: linear-gradient(190deg, #fb09b4, #9100F8, #F7E93F);
 }
-
+.buttons{
+    display: flex;
+    gap: 20px;
+}
 .btn-3 {
     font-size: 16px;
     font-weight: 600;
@@ -227,7 +230,7 @@
     }
 
     .banner {
-    padding: 50px;
+    padding: 50px ;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center bottom;
@@ -583,6 +586,7 @@
     }
 
     .host-card {
+        padding: 15px;
         display: flex;
         flex-direction: column;
         align-items: center;
